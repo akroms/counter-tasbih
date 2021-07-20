@@ -1,7 +1,10 @@
 
 
 # Flip Color Project
-##### When user interact with this page it will changes background color
+##### When user interact with this page can do therse: 
++ additon 
+- subtraction
+  Reset value
 
 <img src="./images/gif.gif" width="600" height="400" />
 
