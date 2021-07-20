@@ -1,0 +1,105 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/mosque-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(54, 230, 54, 0.22);
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  height: 400px;
+  margin-top: 300px;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+}
+
+.page-title {
+  font-size: 60px;
+  color: rgb(56, 68, 230);
+}
+
+.counter {
+  margin-top: 10px;
+  padding: 2px;
+  font-size: 55px;
+  color: rgb(56, 68, 230);
+}
+
+/* Buttons */
+
+#buttons {
+  margin-top: 20px;
+}
+
+.btn-general {
+  padding: 8px 16px;
+  width: 110px;
+  margin: 8px;
+  background-color: rgb(74, 77, 251);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-general:hover {
+  background-color: rgb(56, 68, 230);
+}
+
+.btn-general:active {
+  background-color: rgb(46, 58, 224);
+}
+
+/* Responsive design */
+
+@media (max-width: 1400px) {
+  header {
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  header {
+    margin-top: 615px;
+    height: 450px;
+    background-color: rgba(54, 230, 54, 0.1);
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-general {
+    padding: 22px 10px;
+    width: 300px;
+    margin: 6px;
+  }
+}
