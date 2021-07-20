@@ -3,8 +3,10 @@
 # Flip Color Project
 ##### When user interact with this page can do therse: 
 + additon 
-- subtraction
-  Reset value
++ subtraction
++ Reset value
+----------------------------------------------------------------
+Basically these three function
 
 <img src="./images/gif.gif" width="600" height="400" />
 
