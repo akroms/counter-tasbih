@@ -11,7 +11,7 @@ Basically these three function
 <img src="./images/gif.gif" width="600" height="400" />
 
 To see this site demo
-[click here](https://filp-color.netlify.app/)
+[click here](https://counter-tasbih.netlify.app/)
 
 *****************************************************************
 Used technologies: 
