@@ -102,8 +102,5 @@ header {
     width: 300px;
     margin: 6px;
   }
-  
-  header {
-    width: 100%;
-  }
+  @-ms-viewport { width: 320px; }
 }
