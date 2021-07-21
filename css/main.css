@@ -102,4 +102,8 @@ header {
     width: 300px;
     margin: 6px;
   }
+  
+  header {
+    width: 100%;
+  }
 }
