@@ -22,7 +22,7 @@ header {
   background-color: rgba(54, 230, 54, 0.22);
   padding: 20px;
   border-radius: 10px;
-  width: 600px;
+  max-width: 600px;
   height: 400px;
   margin-top: 300px;
 }
